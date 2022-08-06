@@ -1,0 +1,83 @@
+.container{
+    border: 2px solid red;
+}
+.item
+{
+    padding: 10px;
+    border: 1px solid black;
+    font-size: medium;
+    margin: 5px;
+}
+.item:nth-child(odd)
+{
+    background-color: bisque;
+    color: black;
+    border: 2px solid red;
+}
+.item:nth-child(even)
+{
+    background-color: green;
+    border:2px solid pink;
+}
+.item
+{
+    padding:20px;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    /*width: 800px;
+    height: 120vh; */
+    /* flex-direction: column;
+    flex-wrap:wrap;*/
+    /* flex-flow: row-reverse wrap-reverse;*/
+    padding:10px;
+    flex-wrap:wrap;
+    background-color:black;
+    margin:0px;
+    
+}
+aside{
+    float:right;
+    padding:10px;
+    border:6px solid red;
+    height: 40px;
+    width: 50px;
+    margin:0px;
+    background-color:yellow;
+    align-content:center;
+    padding:100px;
+    
+}
+/* .one
+{
+    order: 3;
+} */
+.f
+{
+    text-align: center;
+    border-bottom: 8px solid black;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jus
+{
+    border:3px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    /* border-top:; */
+    justify-content: center;
+    margin-top: 0px;
+    
+}
+.rif
+{
+    border:2px solid black;
+    padding:15px;
+    margin:2px;
+    background-color: aqua;
+    
+}
